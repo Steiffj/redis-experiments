@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "graphology": "^0.25.4",
+    "graphology-components": "^1.5.4",
+    "ioredis": "^5.3.2",
+    "nitropack": "latest",
+    "redis": "^4.6.11"
+  }
+}
